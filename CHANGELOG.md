@@ -5,6 +5,14 @@ Tutte le modifiche rilevanti a questo modulo sono documentate in questo file.
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.0.0/)
 e il progetto aderisce al [Versionamento Semantico](https://semver.org/lang/it/).
 
+## [1.2.1] - 2026-11-03
+
+### Added
+- Traduzione italiana (`i18n/it_IT.csv`) del messaggio «Please accept the privacy policy to subscribe to the newsletter.».
+
+### Fixed
+- Template Hyvä: il testo del consenso eredita il colore del footer (prima risultava poco leggibile su footer scuri).
+
 ## [1.2.0] - 2026-11-03
 
 ### Added
