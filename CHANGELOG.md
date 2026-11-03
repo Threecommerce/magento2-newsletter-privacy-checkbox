@@ -5,6 +5,14 @@ Tutte le modifiche rilevanti a questo modulo sono documentate in questo file.
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.0.0/)
 e il progetto aderisce al [Versionamento Semantico](https://semver.org/lang/it/).
 
+## [1.2.0] - 2026-11-03
+
+### Added
+- Compatibilità con i temi Hyvä: nuovo template del footer newsletter (`view/frontend/templates/hyva/subscribe_form_footer.phtml`), collegato dal layout `hyva_default.xml`. Mantiene il form di Hyvä (Alpine.js, reCAPTCHA) e aggiunge il checkbox del consenso privacy, con controllo nel browser e messaggio d'errore.
+
+### Fixed
+- Su Hyvä il checkbox non compariva (il blocco del modulo era sovrascritto dal footer di Hyvä) mentre il controller richiedeva comunque il consenso: con la privacy attiva ogni iscrizione veniva rifiutata. Ora il consenso si può dare e viene salvato.
+
 ## 1.1.1
 
 - Fix: aggiunto `etc/acl.xml` (risorsa della sezione di configurazione non dichiarata).
