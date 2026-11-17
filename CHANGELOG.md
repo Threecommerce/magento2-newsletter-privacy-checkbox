@@ -5,6 +5,11 @@ Tutte le modifiche rilevanti a questo modulo sono documentate in questo file.
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.0.0/)
 e il progetto aderisce al [Versionamento Semantico](https://semver.org/lang/it/).
 
+## [1.2.3] - 2026-11-17
+
+### Corretto
+- PHP 8.1 di nuovo supportato (la versione precedente richiedeva per errore PHP 8.2), per Magento 2.4.4 – 2.4.6.
+
 ## [1.2.2] - 2026-11-17
 
 ### Modificato
