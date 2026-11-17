@@ -5,6 +5,13 @@ Tutte le modifiche rilevanti a questo modulo sono documentate in questo file.
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.0.0/)
 e il progetto aderisce al [Versionamento Semantico](https://semver.org/lang/it/).
 
+## [1.2.2] - 2026-11-17
+
+### Modificato
+- File LICENSE nella radice del pacchetto.
+- `module.xml` dichiara l'ordine di caricamento dopo i moduli Magento che il modulo usa.
+- `composer.json`: requisiti espliciti per PHP e per i moduli Magento usati.
+
 ## [1.2.1] - 2026-11-03
 
 ### Added
