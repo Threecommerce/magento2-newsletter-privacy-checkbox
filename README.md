@@ -4,7 +4,7 @@ Magento 2 has no privacy checkbox in its newsletter subscription form. This free
 
 ![Admin configuration of the newsletter privacy checkbox: enable switch and privacy text](images/newsletter-privacy-config.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.4 · Themes: Luma, Hyvä, Breeze
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.5 · Themes: Luma, Hyvä, Breeze
 **License:** free · **Current version:** see [Releases](../../releases)
 
 ## Features
@@ -19,7 +19,7 @@ Magento 2 has no privacy checkbox in its newsletter subscription form. This free
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.1 – 8.4
+- PHP 8.1 – 8.5
 - Native module: `Magento_Newsletter`
 - Package: `threecommerce/m2-base` (installed automatically by Composer)
 
